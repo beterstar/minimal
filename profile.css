@@ -24,6 +24,12 @@ main{
     align-items: start;
     flex-direction: column;
 }
+@media screen and (max-width:359px) {
+    .content-profile-child{
+        height: auto;
+        padding:0.5em 0.3em !important;
+    }
+}
 .content-profile-child div{
     font-size: 1rem;
 }
